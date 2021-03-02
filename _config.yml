@@ -1,0 +1,72 @@
+# Site
+repository: p15bala/cv
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Haris Kostantis
+title: Student at Ionian University
+email: p15kost@ionio.gr
+website: https://github.com/p15kost/cv1
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+github_username:  p15kost
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name is Haris Kostantis and I'm a student in the Department of Informatics at Ionian University.
+
+  I am most skilled in: <mark>Javascript</mark> and <mark>CSS</mark>
+
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Bachelor Thesis
+        quote: >
+          This is what I'm currently working on for my thesis.
+        description: | # this will include new lines to allow paragraphs
+          I'm developing an archaeological Database with Geographical Information. It is very interesting and i have learned a lot of new skills.
+
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Ionian University
+        caption: 2015 - Present
+        sub_title: BS Information Technology
+        
+        description: | # this will include new lines to allow paragraphs
+          During my time at Ionian University I have learned a lot of new things which will be useful for me in the future.
+
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      I like playing football and going long adventures in the forests.
+      
+      
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
