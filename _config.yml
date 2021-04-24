@@ -16,6 +16,12 @@ darkmode: false
 
 # Social links
 github_username:  p15kost
+linkedin_username: hariskostantis
+
+# Additional Links
+additional_links:
+- title: pdf 
+  url: https://github.com/p15kost/cv1/raw/gh-pages/pdf/cv.pdf
 
 # About Section
 # about_title: About Me
